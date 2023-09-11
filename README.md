@@ -10,11 +10,10 @@ create a new user with ReadOnlyAccess Policy with configure an access and secret
 
 To be able to run the server installation script you have the following components installed on a linux server:
 
- - asible
  - aws-cli 
  - terraform
  - make
- - nano
+
 
 > ❗️ Note: have configured aws cli with an account that has IAM management permissions
 
