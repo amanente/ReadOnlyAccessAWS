@@ -30,9 +30,9 @@ tf_output: #- Terraform Show sensitive user data
 	cd terraform && terraform output user
 
 
-.PHONY: deploy
-deploy: tf_init tf_validate tf_apply tf_output  ## Deploy on AWS ReadOnly User
-	echo "Finish provisioning"
+.PHONY: create
+create: tf_init tf_validate tf_apply tf_output  ## Create on AWS a ReadOnly User
+	echo "Finish User creation"
 
 .PHONY: more
 more: ## Show extra avaiable Make command 
