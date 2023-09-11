@@ -1,8 +1,6 @@
 
 # Create a AWS ReadOnlyAccess
 
-<img src='https://scm.interlogica.it/utility/aws-readonly-user-access-key/-/badges/release.svg?color=%23FDD835&label=version&style=for-the-badge'>
-  
 
 
 create a new user with ReadOnlyAccess Policy with configure an access and secrety key
@@ -18,7 +16,7 @@ To be able to run the server installation script you have the following componen
  - make
  - nano
 
-
+> ❗️ Note: have configured aws cli with an account that has IAM management permissions
 
 
 
