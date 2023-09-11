@@ -8,7 +8,21 @@
 create a new user with ReadOnlyAccess Policy with configure an access and secrety key
 
 
-## 1.⚡️ Quick start
+## 1. ⚠️ Prerequisites
+
+To be able to run the server installation script you have the following components installed on a linux server:
+
+ - asible
+ - aws-cli 
+ - terraform
+ - make
+ - nano
+
+
+
+
+
+## 2.⚡️ Quick start
 
 to create the user execute:
 ```bash
@@ -16,7 +30,7 @@ to create the user execute:
 ```
 > ❗️ Note: at the prompt enter the name of the user you want to create
 
-## 2. 📝 Make command
+## 3. 📝 Make command
 
 to see all main commands
 ```bash
@@ -42,7 +56,7 @@ tf_destroy                     Terraform Destroy infrastructure
 tf_apply                       Terraform Apply infrastructure changes
 tf_output                      Terraform Show sensitive user data
 ```
-### 2.1 Sequence of commands to execute to create a user:
+### 3.1 Sequence of commands to execute to create a user:
 
 ```bash
  make tf_init 
@@ -70,7 +84,7 @@ command output:
 ```
 
 
-### 2.2 With the **tf_destroy** command you delete the created user and his access keys
+### 3.2 With the **tf_destroy** command you delete the created user and his access keys
 ```bash
  make tf_destroy
 ```
